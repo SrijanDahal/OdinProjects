@@ -1,0 +1,9 @@
+body {
+    background-color: aqua;
+}
+
+.hello {
+    color: green;
+    background-image: url('./photo.jpg');
+    background-repeat: none;
+}

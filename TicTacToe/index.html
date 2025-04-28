@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./javascript/active.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="headings">
+            <h1>Let's play TicTacToe</h1>
+        </div>
+        <div class="tictactoe">
+            <div class="instruction">
+                <h4>Player1 mark would be "X". And Player2 mark would be "O".</h4>
+            </div>
+            <div class="table">
+               <div class="cell1 cell" onclick="entertheMark()"></div>
+               <div class="cell2 cell" onclick="entertheMark()"></div>
+               <div class="cell3 cell" onclick="entertheMark()"></div>
+               <div class="cell4 cell" onclick="entertheMark()"></div>
+               <div class="cell5 cell" onclick="entertheMark()"></div>
+               <div class="cell6 cell" onclick="entertheMark()"></div>
+               <div class="cell7 cell" onclick="entertheMark()"></div>
+               <div class="cell8 cell" onclick="entertheMark()"></div>
+               <div class="cell9 cell" onclick="entertheMark()"></div>
+            </div>
+            <div class="buttons">
+                <div class="names">
+                    <input type="text" class="player1" placeholder="Player1 Name">
+                    <input type="text" class="player2" placeholder="Player2 Name">
+                </div>
+                <div class="buttons3">
+                    <button class="startGame" onclick="startgame()">Start Game</button>
+                    <button class="newGame" onclick="newgame()">New Game</button>
+                    <button class="resetGame" onclick="resetgame()">Reset Game</button>
+                </div>
+                <div class="scorecard">
+                    <table>
+                        <tr>
+                            <th>Scorecard</th>
+                            <th class="scplayer1">player1</th>
+                            <th class="scplayer2">player2</th>
+                        </tr>
+                        <tr>
+                            <td>Wins</td>
+                            <td class="player1wins">0</td>
+                            <td class="player2wins">0</td>   
+                        </tr>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
